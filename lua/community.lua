@@ -15,8 +15,10 @@ return {
   { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.editing-support.chatgpt-nvim" },
   { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.neogen" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
   -- import/override with your plugins folder
