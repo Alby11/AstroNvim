@@ -17,7 +17,7 @@ return {
   { import = "astrocommunity.editing-support.copilotchat-nvim" },
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.editing-support.suda-vim" },
-  { import = "astrocommunity.git.diffview-nvim" },
+  -- { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.gist-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.indent.intend-blankline.nvim" },
