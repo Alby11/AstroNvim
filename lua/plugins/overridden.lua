@@ -4,11 +4,10 @@ return {
     opts = function(plugin, opts)
       -- check if an `indent` table exists, if not, create it
       if not opts.mappings then opts.mappings = {} end
-      if not opts.mappings.i then opts.mappings.i = {} end
-      if not opts.mappings.i then opts.mappings.c = {} end
-      if not opts.mappings.i then opts.mappings.t = {} end
-      if not opts.mappings.i then opts.mappings.v = {} end
-      if not opts.mappings.i then opts.mappings.s = {} end
+      -- check subtable for each neovim mode
+      for _, mode in ipairs { "i", "c", "t", "v", "s" } do
+        if not opts.mappings[mode] then opts.mappings[mode] = {} end
+      end
       -- once we know it is created, we can set the sub-keys
       opts.mappings.i.k = {
         -- These can all also be functions
