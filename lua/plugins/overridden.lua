@@ -3,28 +3,25 @@ return {
     "max397574/better-escape.nvim",
     opts = function(plugin, opts)
       -- check if an `indent` table exists, if not, create it
-      if not opts.mappings then opts.mappings = {} end
-      -- check subtable for each neovim mode
+      opts.mappings = opts.mappings or {}
+
+      -- set mappings for each neovim mode
       for _, mode in ipairs { "i", "c", "t", "v", "s" } do
-        if not opts.mappings[mode] then opts.mappings[mode] = {} end
+        opts.mappings[mode] = opts.mappings[mode] or {}
       end
-      -- once we know it is created, we can set the sub-keys
-      opts.mappings.i.k = {
-        -- These can all also be functions
-        j = "<Esc>",
+
+      -- set the sub-keys for each mode
+      local mappings = {
+        i = { j = "<Esc>" },
+        c = { j = "<Esc>" },
+        t = { j = "<C-\\><C-n" },
+        v = { j = "<Esc>" },
+        s = { j = "<Esc>" },
       }
-      opts.mappings.c.k = {
-        j = "<Esc>",
-      }
-      opts.mappings.t.k = {
-        j = "<C-\\><C-n",
-      }
-      opts.mappings.v.k = {
-        j = "<Esc>",
-      }
-      opts.mappings.s.k = {
-        j = "<Esc>",
-      }
+
+      for mode, mapping in pairs(mappings) do
+        opts.mappings[mode].k = mapping
+      end
     end,
   },
 }
