@@ -34,5 +34,6 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
