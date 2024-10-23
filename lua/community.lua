@@ -24,7 +24,7 @@ return {
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.editing-support.suda-vim" },
-  -- { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.git.gist-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.neogit" },
@@ -34,6 +34,9 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
+  -- { import = "astrocommunity.scrolling.cinnamon-nvim" },
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
+  { import = "astrocommunity.scrolling.satellite-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
