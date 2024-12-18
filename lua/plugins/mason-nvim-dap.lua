@@ -1,6 +1,7 @@
 return {
   "jay-babu/mason-nvim-dap.nvim",
   opts = {
+    ensure_installed = { "python" },
     handlers = {
       python = function(source_name)
         local dap = require "dap"
