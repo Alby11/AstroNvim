@@ -12,10 +12,13 @@ return {
   opts = {
     -- change colorscheme
     colorscheme = "catppuccin",
-    -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
         -- Normal = { bg = "#000000" },
+        VertSplit = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- vertical split separator
+        FoldColumn = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- fold column
+        StatusLine = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- active window status line
+        StatusLineNC = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- inactive window status line
       },
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
