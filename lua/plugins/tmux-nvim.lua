@@ -3,7 +3,7 @@ return {
     {
       "aserowy/tmux.nvim",
       version = "*",
-      config = function() vim.g.baleia = require("tmux").setup {} end,
+      config = function() return require("tmux").setup() end,
     },
   },
 }
