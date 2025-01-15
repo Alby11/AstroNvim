@@ -16,6 +16,7 @@ return {
       init = { -- this table overrides highlights in all themes
         -- Normal = { bg = "#000000" },
         VertSplit = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- vertical split separator
+        WinSeparator = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- vertical split separator
         FoldColumn = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- fold column
         StatusLine = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- active window status line
         StatusLineNC = { fg = "#A6E3A1", bg = "#1E1E2E" }, -- inactive window status line
