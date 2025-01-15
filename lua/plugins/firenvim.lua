@@ -19,3 +19,9 @@ Config.options.checker.enabled = false
 Config.options.change_detection.enabled = false
 -- replace the default `cond`
 Config.options.defaults.cond = function(plugin) return enabled[plugin.name] end
+
+return {
+  "glacambre/firenvim",
+  name = "firenvim",
+  build = ":call firenvim#install(0)",
+}
