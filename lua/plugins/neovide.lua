@@ -9,7 +9,7 @@ return {
     options = {
       opt = { -- configure vim.opt options
         -- configure font
-        guifont = "Source Code Pro:h14",
+        -- guifont = "Source Code Pro:h14",
         -- line spacing
         linespace = 0,
       },
