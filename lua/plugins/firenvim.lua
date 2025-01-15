@@ -1,4 +1,5 @@
 -- Adapted from: https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/recipes/vscode/init.lua
+-- Credits to: https://github.com/conradbeach/dotfiles
 
 if not vim.g.started_by_firenvim then return {} end -- Don't do anything in non-firenvim instances
 
