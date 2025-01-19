@@ -20,8 +20,28 @@ Config.options.change_detection.enabled = false
 -- replace the default `cond`
 Config.options.defaults.cond = function(plugin) return enabled[plugin.name] end
 
+---@type LazySpec
 return {
-  "glacambre/firenvim",
-  name = "firenvim",
-  build = ":call firenvim#install(0)",
+  {
+    "glacambre/firenvim",
+    name = "firenvim",
+    build = ":call firenvim#install(0)",
+  },
+  {
+    "AstroNvim/astrocore",
+    ---@type AstroCoreOpts
+    opts = {
+      options = {
+        g = { -- configure vim.g variables
+          firenvim_config = {
+            localSettings = {
+              [",*"] = {
+                takeover = "never",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 }
