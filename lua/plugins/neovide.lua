@@ -22,7 +22,9 @@ return {
         neovide_padding_right = 0,
         neovide_padding_left = 0,
         -- configure transparency
-        neovide_transparency = 0.7,
+        -- neovide_transparency = 0.7,
+        neovide_opacity = 0.8,
+        neovide_normal_opacity = 0.8,
       },
     },
   },
