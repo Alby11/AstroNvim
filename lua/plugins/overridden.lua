@@ -24,4 +24,8 @@ return {
       end
     end,
   },
+  {
+    "kevinhwang91/nvim-ufo",
+    enabled = false,
+  }
 }
