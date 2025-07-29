@@ -53,7 +53,7 @@ return {
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.note-taking.neorg" },
-  { import = "astrocommunity.pack.ansible" },
+  -- { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.go" },
