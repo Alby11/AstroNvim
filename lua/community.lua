@@ -86,6 +86,5 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.telescope-lazy-nvim" },
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
-  { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- import/override with your plugins folder
 }
