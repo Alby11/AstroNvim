@@ -84,6 +84,8 @@ return {
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.scrolling.satellite-nvim" },
   { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.telescope-lazy-nvim" },
