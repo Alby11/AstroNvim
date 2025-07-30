@@ -83,6 +83,8 @@ return {
   { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.scrolling.satellite-nvim" },
+  { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
+  { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.telescope-lazy-nvim" },
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
