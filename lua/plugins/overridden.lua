@@ -1,5 +1,14 @@
 return {
   {
+    "folke/lazy.nvim",
+    opts = function(opts)
+      opts.rocks = {
+        hererocks = true,
+        enabled = false,
+      }
+    end
+  },
+  {
     "max397574/better-escape.nvim",
     opts = function(plugin, opts)
       -- check if an `indent` table exists, if not, create it
