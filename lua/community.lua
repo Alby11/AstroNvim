@@ -74,7 +74,7 @@ return {
   { import = "astrocommunity.programming-language-support.csv-vim" },
   { import = "astrocommunity.programming-language-support.kulala-nvim" },
   { import = "astrocommunity.programming-language-support.nvim-jqx" },
-  { import = "astrocommunity.programming-language-support.rest-nvim" },
+  -- { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.recipes.vscode" },
