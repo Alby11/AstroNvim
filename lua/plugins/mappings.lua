@@ -10,7 +10,8 @@ return {
           kj = { "<esc>", desc = "Escape" },
 
           -- Change to buffer's directory
-          ["<leader>bD"] = { "<cmd>cd %:p:h<CR>", desc = "Change to Buffer's Directory" },
+          ["<leader>bi"] = { "<cmd>AstroRootInfo<CR>", desc = "AstroRoot Buffer's Directory Info" },
+          ["<leader>bR"] = { "<cmd>AstroRoot<CR>", desc = "AstroRoot to Buffer's Directory" },
 
           -- Open LazyGit in buffer's directory
           ["<leader>gG"] = {
@@ -25,6 +26,9 @@ return {
             end,
             desc = "Open LazyGit in Buffer's Git Context",
           },
+          ["<Leader>M"] = { desc = "Markdown" },
+          ["<Leader>Mp"] = { "<cmd>PeekOpen<cr>", desc = "Open Peek Preview" },
+          ["<Leader>MP"] = { "<cmd>PeekClose<cr>", desc = "Open Peek Preview" },
         },
         t = {
           -- Terminal mode mappings (optional, disable if not needed)
