@@ -1,7 +1,10 @@
 return {
   {
     "folke/lazy.nvim",
-    opts = function(opts)
+    opts = function(plugin, opts)
+      -- check if an `indent` table exists, if not, create it
+      opts.rocks = opts.rocks or {}
+      -- disable hererocks
       opts.rocks = {
         hererocks = false,
         enabled = false,
@@ -10,7 +13,12 @@ return {
   },
   {
     "toppair/peek.nvim",
-    opts = function(_, opts) opts.app = "browser" end, -- "browser" or "webview"
+    opts = function(plugin, opts)
+      -- check if an `indent` table exists, if not, create it
+      opts.app = opts.app or {}
+      -- set preview mode to "browser"
+      opts.app = "browser"
+    end, -- "browser" or "webview"
   },
   {
     "max397574/better-escape.nvim",
